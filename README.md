@@ -12,3 +12,4 @@ If someone wishes to improve its performance consider implementing your own Cycl
 This is how the model is currently performing:- 
 
 
+![plot](./output_img/image1.png)
