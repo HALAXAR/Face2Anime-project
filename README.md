@@ -6,7 +6,7 @@ Because of the dataset which contains only human female images and its anime cou
 
 By training the generators on a dataset which contains both female and male images in equal quantity (so that tha model doesn't become bias) for more no. of epochs would result in the imrovement of the performance of the generators. 
 
-If someone wishes to improve its performance consider implementing your own CycleGAN model. You could use dilated convolution layers, use denseNet blocks instead of ResNet blocks, introduce loss functions that would reduce the shape deformation of generated images and compare the results with the original CycleGAN architecture. 
+If someone wishes to improve its performance consider implementing your own CycleGAN model. You could use dilated convolution layers, use denseNet blocks instead of ResNet blocks, introduce loss functions that would reduce the shape deformation of generated images, also avoid lineary decaying the learning rate and compare the results with the original CycleGAN architecture. 
 
 
 This is how the model is currently performing:- 
